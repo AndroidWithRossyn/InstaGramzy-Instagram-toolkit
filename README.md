@@ -79,7 +79,7 @@ Instagramzy also allows you to download the display pictures, stories, and highl
 .
 .
 
->Paid Source Code Available 19USD
+>Paid Source Code Available
 
 <p align="center">
     <a href="https://play.google.com/store/apps/details?id=com.banrossyn.post.story.downloader">
