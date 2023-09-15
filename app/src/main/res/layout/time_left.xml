@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.airbnb.lottie.LottieAnimationView android:id="@+id/lottie_layer" android:layout_width="match_parent" android:layout_height="200dp" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/time"/>
+    <TextView android:textSize="20dp" android:textColor="@color/dark_purple" android:id="@+id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="30 min left of your free trial "/>
+    <Space android:layout_width="wrap_content" android:layout_height="30dp"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp">
+        <Button android:textSize="13dp" android:textColor="@android:color/white" android:id="@+id/not_now" android:background="@color/colorAccent" android:paddingLeft="30dp" android:paddingRight="30dp" android:layout_width="wrap_content" android:layout_height="40dp" android:text="Not now"/>
+        <Space android:layout_width="30dp" android:layout_height="wrap_content"/>
+        <Button android:textSize="13dp" android:textColor="@android:color/white" android:id="@+id/purchase" android:background="@color/dark_purple" android:paddingLeft="30dp" android:paddingRight="30dp" android:layout_width="wrap_content" android:layout_height="40dp" android:text="Purchase now"/>
+    </LinearLayout>
+    <Space android:layout_width="wrap_content" android:layout_height="30dp"/>
+</LinearLayout>

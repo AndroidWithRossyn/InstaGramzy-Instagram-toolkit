@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.templatemela.instagramzy">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+    </queries>
+
+    <application
+        android:name="com.templatemela.instagramzy.TMApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="adjustNothing">
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name="com.templatemela.instagramzy.utils.CustomWebview" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TVMessagesViewActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMBaseActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMPanoramaResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMSquareImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMSquarePreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMGridResultActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMMainLoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" >
+
+        </activity>
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMErrorActivity"
+            android:process=":error_activity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMLikeCommentsActivity"
+            android:screenOrientation="portrait" />
+
+
+
+
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMHashtagCollectionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMHashTagActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMCaptionViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMCaptionTypeActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMDpViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMOtherDowloaderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMSearchActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMViewStoriesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMLikedOrCommentedPostsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMInteractionScannerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMPostActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMCancelSentRequestsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMSentRequestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.templatemela.instagramzy.magic_text.TMMagicTextActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMDownloadedViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoDisplay" />
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMLoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing">
+
+        </activity>
+        <activity
+            android:name="com.templatemela.instagramzy.activitys.TMMainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+
+        <service
+            android:name="com.templatemela.instagramzy.services.TMPostFetcherService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.templatemela.instagramzy.services.TMDownloaderService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.templatemela.instagramzy.services.TMFollowerFetchService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.templatemela.instagramzy.services.TMLikerCommenterFetcher"
+            android:enabled="true"
+            android:exported="true" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.templatemela.instagramzy.file_provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+        <!--
+ <service
+            android:name="com.templatemela.instagramzy.services.NotificationReceiver"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+        -->
+        <service
+            android:name="com.templatemela.instagramzy.chat_popup.TMFloatingWidgetService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name="com.templatemela.instagramzy.services.HomeKeyBroadCastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_CLOSE_SYSTEM_DIALOGS" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.templatemela.instagramzy.services.ActionReceiver"
+            android:exported="true" />
+    </application>
+
+</manifest>

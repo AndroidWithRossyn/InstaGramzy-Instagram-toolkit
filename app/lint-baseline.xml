@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.2.1" type="baseline" client="gradle" dependencies="false" name="AGP (7.2.1)" variant="fatal" version="7.2.1">
+
+    <issue
+        id="NotSibling"
+        message="`@+id/ll` is not a sibling in the same `RelativeLayout`"
+        errorLine1="            android:layout_below=&quot;@+id/ll&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/font_item.xml"
+            line="30"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="NotSibling"
+        message="`@+id/z` is not a sibling in the same `RelativeLayout`"
+        errorLine1="    &lt;LinearLayout android:gravity=&quot;center_vertical&quot; android:orientation=&quot;horizontal&quot; android:id=&quot;@+id/itemv&quot; android:padding=&quot;10dp&quot; android:layout_width=&quot;match_parent&quot; android:layout_height=&quot;wrap_content&quot; android:layout_toLeftOf=&quot;@+id/z&quot;>"
+        errorLine2="                                                                                                                                                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/sent_requests_item.xml"
+            line="3"
+            column="206"/>
+    </issue>
+
+    <issue
+        id="InvalidSetHasFixedSize"
+        message="When using `setHasFixedSize() in an `RecyclerView`, `wrap_content` cannot be used as \&#xA;a value for `size` in the scrolling direction."
+        errorLine1="                recycler_view_color.setHasFixedSize(true);"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/templatemela/instagramzy/activitys/TMSquareImageActivity.java"
+            line="281"
+            column="17"/>
+    </issue>
+
+</issues>

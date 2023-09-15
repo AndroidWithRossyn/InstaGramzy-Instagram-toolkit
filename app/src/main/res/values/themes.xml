@@ -1,0 +1,143 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="fontFamily">@font/barlow_medium</item>
+    </style>
+    <style name="AppTheme.NoDisplay">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="CustomText">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/barlow_medium</item>
+    </style>
+
+    <style name="h1">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:fontFamily">@font/barlow_medium</item>
+    </style>
+
+    <style name="headerText">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:fontFamily">@font/barlow_semibold</item>
+    </style>
+    <style name="h2">
+    <item name="android:textSize">16dp</item>
+    <item name="android:textColor">#cac7df</item>
+    <item name="android:letterSpacing">0.02</item>
+    <item name="android:fontFamily">@font/barlow_regular</item>
+    </style>
+
+    <style name="messageTxt">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#cac7df</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:fontFamily">@font/barlow_regular</item>
+    </style>
+
+
+    <style name="messageTxt1">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:fontFamily">@font/barlow_thin</item>
+    </style>
+
+    <style name="h4">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">@font/barlow_regular</item>
+    </style>
+
+    <style name="userText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">@font/barlow_regular</item>
+    </style>
+
+
+    <style name="h3">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#cac7df</item>
+        <item name="android:fontFamily">@font/barlow_regular</item>
+    </style>
+    <style name="badgeText">
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">@font/barlow_regular</item>
+    </style>
+
+    <style name="functionText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:fontFamily">@font/barlow_regular</item>
+    </style>
+
+
+    <style name="HeaderTitle">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/header_text_color</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="BackButton">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:contentDescription">@string/image</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="srcCompat">@drawable/ic_back</item>
+
+    </style>
+    <style name="MyDialogTheme">
+        <item name="colorAccent">@color/black</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+    </style>
+    <style name="PickerEditText">
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+    <style name="myTabTextStyle">
+        <item name="android:fontFamily">@font/textfont</item>
+    </style>
+    <style name="MenuCardView">
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+        <item name="cardCornerRadius">6dp</item>
+        <item name="cardElevation">1dp</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="elevationOverlayEnabled">false</item>
+    </style>
+
+    <declare-styleable name="SpannedGridLayoutManager">
+        <attr name="android:orientation" />
+        <attr name="spanCount" />
+        <attr name="aspectRatio" format="string" />
+    </declare-styleable>
+</resources>

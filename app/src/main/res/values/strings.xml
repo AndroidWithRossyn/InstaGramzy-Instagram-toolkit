@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InstaGramzy</string>
+
+
+    <string name="folder_crop">Crop</string>
+    <string name="folder_grid">Grid</string>
+    <string name="rate_us_text">If you are happy with this app,would you mind taking a moment to rate it? Thanks for your support!</string>
+    <string name="rate_us_text_1">you mind taking a moment to rate it?</string>
+    <string name="rate_us_text_2">Thanks for your support!</string>
+    <string name="folder_name">Panoromaspilt</string>
+    <string name="folder_panorama">Panoroma</string>
+    <string name="toast_cannot_retrieve_cropped_image">Cannot retrieve cropped image</string>
+    <string name="toast_cannot_retrieve_selected_image">Cannot retrieve selected image</string>
+    <string name="search_menu_title">Search</string>
+    <string name="share">Share Voice File</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="text_center">Center text</string>
+    <string name="text_left">Left text</string>
+    <string name="text_right">Right text</string>
+    <string name="title_camera">Camera</string>
+    <string name="title_choose_image_provider">Choose</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="label_ok">OK</string>
+    <string name="later">Later</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="permission_read_storage_rationale">Storage read permission is needed to pick files.</string>
+    <string name="permission_title_rationale">Permission needed</string>
+    <string name="permission_write_storage_rationale">Storage write permission is needed to save the image.</string>
+    <string name="share_instagram">SHARE ON INSTAGRAM</string>
+    <string name="skip">Skip</string>
+    <string name="magic_text_edit_hint">Enter your text here.</string>
+    <string name="magic_text">Magic Text</string>
+    <string name="image">Image</string>
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="reward_ads_id">ca-app-pub-3940256099942544/5224354917</string>
+    <!-- debe cambiar id tambien en HomeFrament.java-->
+    <string name="admob_native_id">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="privacy_policy"><u>privacy policy</u></string>
+
+</resources>
